@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Cormorant_Garamond, Great_Vibes, Outfit } from "next/font/google";
-import { absoluteUrl, BRAND, BRAND_FULL, siteUrl, STORE_ADDRESS, STORE_RATING } from "@/data/site";
+import { absoluteUrl, BRAND, BRAND_FULL, siteUrl, STORE_ADDRESS, STORE_RATING, WHATSAPP_DISPLAY } from "@/data/site";
 import { CartDrawer, MobileDock, NoticeToast } from "@/components/cart-drawer";
 import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
@@ -8,7 +8,6 @@ import { InquiryForm } from "@/components/inquiry-form";
 import { MobileDrawer } from "@/components/mobile-drawer";
 import { SearchDialog } from "@/components/search-dialog";
 import { StoreProvider } from "@/components/store";
-// Raj Dryfruits official website layout
 import "./globals.css";
 
 const serif = Cormorant_Garamond({
@@ -36,14 +35,14 @@ const script = Great_Vibes({
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: `${BRAND} — Premium Dry Fruits, Chocolates, Coffee & Tea | Ahmedabad`,
+    default: `${BRAND_FULL} — Premium Dry Fruits, Chocolates & Gifting | Ahmedabad`,
     template: `%s · ${BRAND}`,
   },
   description:
-    "Premium dry fruits, chocolates, coffee, tea and celebration boxes from Raj Dryfruits & Mukhwas, Ahmedabad. Choose your favourites and send a WhatsApp inquiry.",
+    "Premium dry fruits, handcrafted chocolates, festive hampers and thoughtful celebration gifting from Vaibhav Dryfruits & Chocolatiers, Ahmedabad. Browse our collection and send a direct WhatsApp inquiry.",
   openGraph: {
     title: `${BRAND_FULL} · Ahmedabad`,
-    description: "Premium dry fruits, chocolates, coffee, tea and celebration boxes — ordered through a simple WhatsApp inquiry.",
+    description: "Premium dry fruits, chocolates, festive hampers and celebration gifting — ordered through a simple WhatsApp inquiry.",
     images: ["/images/hero-composition.jpg"],
     locale: "en_IN",
     type: "website",
@@ -51,7 +50,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: BRAND_FULL,
-    description: "Premium dry fruits, chocolates, coffee, tea and celebration boxes, ordered on WhatsApp.",
+    description: "Premium dry fruits, chocolates, festive hampers and celebration gifting, ordered on WhatsApp.",
     images: ["/images/hero-composition.jpg"],
   },
 };
@@ -63,9 +62,9 @@ const structuredData = {
       "@type": "Store",
       name: BRAND_FULL,
       url: absoluteUrl("/"),
-      telephone: "+91-9712698899",
+      telephone: "+91-98989-05557",
       image: absoluteUrl("/images/hero-composition.jpg"),
-      description: "Premium dry fruits, chocolates, coffee, tea and celebration boxes. Orders are placed as WhatsApp inquiries.",
+      description: "Premium dry fruits, artisanal chocolates, and celebration gift boxes. Inquiries and orders placed conveniently via WhatsApp.",
       address: {
         "@type": "PostalAddress",
         streetAddress: STORE_ADDRESS.line1 + ", " + STORE_ADDRESS.line2,
@@ -76,14 +75,14 @@ const structuredData = {
       },
       aggregateRating: {
         "@type": "AggregateRating",
-        ratingValue: "4.6",
+        ratingValue: "5.0",
         bestRating: "5",
       },
       areaServed: "IN",
     },
     {
       "@type": "WebSite",
-      name: BRAND,
+      name: BRAND_FULL,
       url: absoluteUrl("/"),
       potentialAction: {
         "@type": "SearchAction",

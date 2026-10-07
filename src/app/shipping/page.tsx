@@ -3,14 +3,14 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Shipping Information",
-  description: "How Raj Dry Fruits inquiries, pricing and delivery are confirmed on WhatsApp.",
+  description: "How Vaibhav Dryfruits & Chocolatiers inquiries, pricing and delivery are confirmed on WhatsApp.",
 };
 
 export default function ShippingPage() {
   return (
     <div className="shell py-16 sm:py-24">
     <article className="max-w-3xl">
-      <p className="font-script text-4xl text-caramel">Before it travels</p>
+      <p className="font-script text-caramel">Before it travels</p>
       <h1 className="mt-3 font-serif text-6xl text-ink">Shipping Information</h1>
       <div className="mt-8 space-y-5 leading-relaxed text-stone-600">
         <p>This website does not take payment or book a courier by itself. Delivery is arranged after your WhatsApp inquiry is confirmed.</p>

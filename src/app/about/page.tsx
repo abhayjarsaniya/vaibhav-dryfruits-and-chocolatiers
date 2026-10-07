@@ -14,7 +14,7 @@ import { InquiryLink } from "@/components/inquiry-link";
 export const metadata: Metadata = {
   title: "About Us",
   description:
-    "Raj Dryfruits & Mukhwas is a premium dry fruits, chocolates and celebration boxes store located on Anand Nagar Road, Ahmedabad.",
+    "Vaibhav Dryfruits & Chocolatiers is a premium destination for hand-selected dry fruits, artisanal chocolates, and celebration gift hampers located at Jain Vadi, Manek Chowk Road, Ahmedabad.",
 };
 
 export default function AboutPage() {
@@ -24,7 +24,7 @@ export default function AboutPage() {
         {/* LEFT: Content & Store Details */}
         <article className="flex flex-col">
           <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[#6E2635]">
-            About Raj Dryfruits &amp; Mukhwas
+            About Vaibhav Dryfruits &amp; Chocolatiers
           </p>
           <h1 className="mt-2.5 font-serif text-3xl font-medium leading-[1.1] text-ink sm:mt-3 sm:text-5xl lg:text-6xl">
             Selected Slowly. Inquired Simply.
@@ -32,13 +32,13 @@ export default function AboutPage() {
 
           <div className="mt-6 space-y-4 text-sm leading-relaxed text-stone-600 sm:mt-8 sm:text-base">
             <p>
-              {BRAND_FULL} is a trusted local destination in Ahmedabad for premium dry fruits, artisanal chocolates, single-origin coffee, fine teas, and festive celebration boxes. Our selection brings together wholesome nuts, rich chocolates and thoughtful gift combinations that we are genuinely proud to present.
+              {BRAND_FULL} is a cherished destination in Ahmedabad for premium quality dry fruits, handcrafted chocolates, wholesome nuts, and celebration gifting. Our selection brings together rich California and Mamra almonds, royal cashews, crisp pistachios, luscious dates, and artisanal chocolates that we are genuinely proud to present.
             </p>
             <p>
-              This website functions as a clean product catalog and WhatsApp inquiry portal. Choose your favourite items and weights freely (up to 10 quantity per product). When ready, share delivery details, and your inquiry opens directly in WhatsApp with {WHATSAPP_DISPLAY}.
+              This website functions as a clean product catalog and direct WhatsApp inquiry portal. Browse our selections and weights freely (up to 10 quantity per product). When ready, share your details, and your inquiry opens directly in WhatsApp with {WHATSAPP_DISPLAY}.
             </p>
             <p>
-              Our store team personally confirms availability, final pricing, doorstep delivery and any special packaging requests. No confusing checkouts or online payment gateways — just transparent, warm local service.
+              Our store team personally confirms availability, fresh batch pricing, doorstep delivery, and any custom gift packaging requests. No complicated checkouts or payment gateways — just transparent, trusted, and personal service.
             </p>
           </div>
 
@@ -81,13 +81,13 @@ export default function AboutPage() {
           </div>
         </article>
 
-        {/* RIGHT: Premium Raj Dryfruits Showcase Image */}
+        {/* RIGHT: Premium Vaibhav Dryfruits Showcase Image */}
         <div className="mt-4 lg:mt-0 lg:sticky lg:top-24">
           <div className="overflow-hidden rounded-[24px] border border-[#e6e2dc] bg-[#fbf9f6] p-3 shadow-md sm:rounded-[28px] sm:p-4">
             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[18px] bg-white sm:rounded-[20px] lg:aspect-[5/4]">
               <Image
                 src="/images/hero-composition.jpg"
-                alt="Premium assortment of dry fruits, almonds, cashews, pistachios, dates and walnuts from Raj Dryfruits Ahmedabad"
+                alt="Premium assortment of dry fruits, almonds, cashews, pistachios, dates, walnuts and chocolates from Vaibhav Dryfruits and Chocolatiers Ahmedabad"
                 fill
                 priority
                 className="object-contain p-3 transition-transform duration-500 hover:scale-[1.02]"
@@ -96,10 +96,10 @@ export default function AboutPage() {
             </div>
             <div className="mt-3.5 px-2 pb-1 text-center">
               <p className="font-serif text-base font-semibold text-ink sm:text-lg">
-                Raj Dryfruits &amp; Mukhwas
+                Vaibhav Dryfruits &amp; Chocolatiers
               </p>
               <p className="mt-0.5 text-xs text-stone-500">
-                100 Feet Anand Nagar Road · Jodhpur Village, Ahmedabad
+                Jain Vadi, Manek Chowk Road · Khadia, Ahmedabad
               </p>
             </div>
           </div>

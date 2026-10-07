@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { BRAND, BRAND_FULL } from "@/data/site";
+import { BRAND_SHORT, BRAND_SUB, BRAND_FULL } from "@/data/site";
 
 export function BrandMark({ className = "" }: { className?: string }) {
   return (
@@ -13,20 +13,30 @@ export function BrandMark({ className = "" }: { className?: string }) {
         aria-hidden="true"
       >
         <svg viewBox="0 0 32 32" className="h-4 w-4 sm:h-[18px] sm:w-[18px]" fill="none">
+          {/* Elegant luxury V emblem styled as a refined botanical nut crest */}
           <path
-            d="M16 5c2.2 3.4 7 6.2 7 11.2A7 7 0 1 1 9 16.2C9 11.2 13.8 8.4 16 5Z"
+            d="M8.5 7.5L16 23.5L23.5 7.5"
             stroke="currentColor"
-            strokeWidth="1.6"
+            strokeWidth="1.8"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           />
-          <path d="M16 13.5v9" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" />
+          <path
+            d="M16 11.5c-2.4 1.8-3.6 4-3.6 6.8 0 2.2 1.6 3.7 3.6 3.7s3.6-1.5 3.6-3.7c0-2.8-1.2-5-3.6-6.8Z"
+            stroke="currentColor"
+            strokeWidth="1.2"
+            fill="currentColor"
+            fillOpacity="0.12"
+          />
+          <circle cx="16" cy="8" r="1.1" fill="currentColor" />
         </svg>
       </span>
       <div className="flex flex-col">
-        <span className="truncate whitespace-nowrap font-serif text-[14px] font-semibold leading-none tracking-tight text-ink min-[360px]:text-[15px] sm:text-xl">
-          {BRAND}
+        <span className="truncate whitespace-nowrap font-serif text-[15px] font-semibold leading-none tracking-tight text-ink min-[360px]:text-[16px] sm:text-xl">
+          {BRAND_SHORT}
         </span>
-        <span className="hidden text-[9px] font-medium uppercase tracking-[0.16em] text-[#6E2635] min-[400px]:inline-block">
-          &amp; Mukhwas
+        <span className="hidden text-[8.5px] font-medium uppercase tracking-[0.14em] text-[#6E2635] min-[380px]:inline-block">
+          {BRAND_SUB}
         </span>
       </div>
     </Link>

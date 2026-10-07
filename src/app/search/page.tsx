@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 import { Suspense } from "react";
 import { SearchResults } from "@/components/search-results";
+import { BRAND } from "@/data/site";
 
 export const metadata: Metadata = {
   title: "Search",
-  description: "Search Raj dry fruits, chocolates, coffee and tea.",
+  description: `Search ${BRAND} dry fruits, handcrafted chocolates, coffee and tea.`,
 };
 
 export default function Page() {

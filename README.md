@@ -1,19 +1,20 @@
-# Raj Dryfruits & Mukhwas (Ahmedabad)
+# Vaibhav Dryfruits & Chocolatiers (Ahmedabad)
 
-Premium digital storefront and WhatsApp inquiry platform for **Raj Dryfruits & Mukhwas**, Ahmedabad.
+Premium digital storefront and WhatsApp inquiry platform for **Vaibhav Dryfruits & Chocolatiers**, Ahmedabad.
 
 ## Store Information
-- **Brand**: Raj Dryfruits & Mukhwas
-- **Store Location**: Radha Apartments, Shop No. 4, 100 Feet Anand Nagar Road, Beside Natraj Medical, Jodhpur Village, Ahmedabad, Gujarat 380015
-- **Phone / WhatsApp**: +91 9712698899
-- **Google Rating**: 4.6 ★
+- **Brand**: Vaibhav Dryfruits & Chocolatiers
+- **Store Location**: Jain Vadi, Manek Chowk Road, Khadia, Ahmedabad, Gujarat 380001
+- **Phone / WhatsApp**: +91 98989 05557
+- **Google Location**: https://share.google/jOHY5ZZPfu6mzPzpQ
+- **Google Rating**: 5.0 ★
 
 ---
 
 ## Features & Highlights
 
 ### 1. Modern E-Commerce Catalog & Discovery
-- **Rich Product Categories**: Dry Fruits, Handcrafted Chocolates, Artisanal Coffee & Fine Teas, Customer Favourites / Best Sellers, and Curated Celebration Gift Boxes / Bundles.
+- **Rich Product Categories**: Premium Dry Fruits, Artisanal Chocolates, Fine Coffee & Tea, Customer Best Sellers, and Curated Celebration Gift Hampers & Bundles.
 - **Alternating Sections**: Full-width luxury alternating section backgrounds (White `#FFFFFF` and Warm Neutral `#FAF8F6`) with compact mobile vertical rhythm.
 - **Mobile Swipeable Carousels**: 100% native momentum horizontal swipe on homepage collections without arrow clutter.
 - **Collection Pages (2-Column Grid)**: Dedicated product listing pages (`/dry-fruits`, `/chocolates`, `/bundles`, etc.) render a clean, vertical 2-column mobile grid with product descriptions visible.
@@ -60,4 +61,4 @@ npm run start
 ---
 
 ## License
-Private property of Raj Dryfruits & Mukhwas, Ahmedabad. All rights reserved.
+Private property of Vaibhav Dryfruits & Chocolatiers, Ahmedabad. All rights reserved.
